@@ -6,6 +6,7 @@
     margin-top: 12px;
 
     .product__name {
+      z-index: 1000000;
       width: 100%;
       cursor: pointer;
       font-size: 16px;

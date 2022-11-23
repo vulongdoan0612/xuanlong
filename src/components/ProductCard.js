@@ -21,7 +21,11 @@ const ProductCard = ({ item }) => {
   return (
     <Col>
       <div className="product__item">
-        <motion.div whileHover={{ scale: 1.1 }} className="product__img">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="product__img"
+          style={{ width: "60%", margin: "auto" }}
+        >
           <img src={item.image01} alt="" />
         </motion.div>
         <div className="product__info">
